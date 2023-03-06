@@ -9,9 +9,13 @@
     "lint": "yarn lint:eslint && yarn lint:prettier",
     "lint:eslint": "eslint --fix $(git diff --name-only --cached --diff-filter=AM | grep '\\.ts')",
     "lint:prettier": "prettier --write .prettierrc.json $(git diff --name-only --cached --diff-filter=AM | grep '\\.ts')",
-    "fork:avalancheFuji": "npx hardhat node --fork https://api.avax-test.network/ext/bc/C/rpc --no-deploy --fork-block-number 16658163",
+    "verify:avalancheFuji": "npx hardhat --network avalancheFuji etherscan-verify",
     "fork:avalanche": "npx hardhat node --fork https://api.avax.network/ext/bc/C/rpc --no-deploy",
-    "fork:arbitrum": "npx hardhat node --fork https://arb1.arbitrum.io/rpc --no-deploy"
+    "fork:arbitrum": "npx hardhat node --fork https://arb1.arbitrum.io/rpc --no-deploy",
+    "fork:avalancheFuji": "npx hardhat node --fork https://api.avax.network/ext/bc/C/rpc --no-deploy --fork-block-number 16658163",
+    "anvil": "anvil",
+    "anvil:fork-arbitrum": "anvil --fork https://arb1.arbitrum.io/rpc",
+    "anvil:fork-avalanche": "anvil --fork https://api.avax.network/ext/bc/C/rpc"
   },
   "author": "",
   "license": "ISC",
@@ -38,6 +42,7 @@
     "hardhat": "^2.10.1",
     "hardhat-deploy": "^0.11.18",
     "hardhat-gas-reporter": "^1.0.9",
+    "hardhat-preprocessor": "^0.1.5",
     "husky": "^8.0.0",
     "prettier": "2.7.1",
     "ts-node": "^10.9.1",

@@ -1,0 +1,287 @@
+Nothing to compile
+No need to generate any newer typings.
+set deployer 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 balance to 1000000000000000000000
+deploying "RoleStore" (tx: 0xb5e8acaa7f53df0c35d3065c2a57f356b619548ee85d6234d4fad24e0a4104dd)...: deployed at 0x5FbDB2315678afecb367f032d93F642f64180aa3 with 719690 gas
+granting role CONTROLLER to  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+executing RoleStore.grantRole (tx: 0x7fc39430959f6e395f98b16a704f79afa01f650ad120b5b78aa3f7bea6b843e8) ...: performed with 163703 gas
+granting role ORDER_KEEPER to  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+executing RoleStore.grantRole (tx: 0xfdad91676f3d759f9e64b73ef20ff4c8e1721c62724cb086d22a33ff6ef1a369) ...: performed with 163703 gas
+granting role MARKET_KEEPER to  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+executing RoleStore.grantRole (tx: 0x02e8074d0617dda6c9a885944bd2c8f148ec2769934bbd0830948628cc0d10d7) ...: performed with 163703 gas
+granting role FROZEN_ORDER_KEEPER to  0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+executing RoleStore.grantRole (tx: 0x0c19c05510303ca6733e71306309f0ed253f9f579e822a129255c0455a091945) ...: performed with 163703 gas
+deploying "GasUtils" (tx: 0x46888285af342c5ceafeadd5461eb0299dfa129610048be17a59d156190d6ee1)...: deployed at 0x5FC8d32690cc91D4c39d9d3abcBD16989F875707 with 391169 gas
+deploying "BaseOrderUtils" (tx: 0x346ecf2db3360cbd35126579a62af7b240f152ae7b6f46d07b32458182a6b7b3)...: deployed at 0x0165878A594ca255338adfa4d48449f69242Eb8F with 72217 gas
+deploying "MarketStoreUtils" (tx: 0x79a0bb55b99c6e7852c93bdccfd089adbdb61660f05e4edcd8b6949094a7237d)...: deployed at 0xa513E6E4b8f2a923D98304ec87F64353C4D5C853 with 885590 gas
+deploying "OrderStoreUtils" (tx: 0x56e88514cc3f13a9181310175f92ea11399f016d7d7e19943c3a4949da92080a)...: deployed at 0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6 with 3459069 gas
+deploying "OrderEventUtils" (tx: 0xf7984ffa00bc64897052980ed65ba49b96ec427192c85a9a605896e0bedde39c)...: deployed at 0x8A791620dd6260079BF849Dc5567aDC3F2FdC318 with 1916966 gas
+deploying "FeeUtils" (tx: 0x92e1a7dff541d613ab1ffe1dcc675f175d0b40f2ab0c8ae3bf18bd40139aa227)...: deployed at 0x610178dA211FEF7D417bC0e6FeD39F05609AD788 with 897819 gas
+deploying "MarketEventUtils" (tx: 0x98fc1ee0db2cd7b2acf48d64565ce7e779ee00983671a334cdfc3b78c4571512)...: deployed at 0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e with 2452128 gas
+deploying "SwapUtils" (tx: 0xc89bcbec94b45dd5a6144fbe77c101d5bedd28048c7aecfbb84dc2946af920e3)...: deployed at 0xA51c1fc2f0D1a1b8494Ed1FE312d7C3a78Ed91C0 with 3971038 gas
+deploying "PositionStoreUtils" (tx: 0x14da56a56d3aca8eb39de566398f9a5cbb977d8088f383932f4fd9e5ab0b8be1)...: deployed at 0x0DCd1Bf9A1b36cE34237eEaFef220932846BCD82 with 2223815 gas
+deploying "MarketUtils" (tx: 0x66a6f761eb3150bb7d7b8c78fe40d08310ee9c41d0a3023b50c1d1dc38f8e753)...: deployed at 0x9A676e781A523b5d0C0e43731313A708CB607508 with 2176077 gas
+deploying "PositionUtils" (tx: 0x8353ca68ac3f108e3ac82ff29a4ee0eaaa6514a3d525f64d259a29025e64831b)...: deployed at 0x0B306BF915C4d645ff596e518fAf3F9669b97016 with 3201858 gas
+deploying "PositionEventUtils" (tx: 0x1b00d03309b802c7c7614d98d3082ec9e63da7802958bf9e7e949fe6b59aea73)...: deployed at 0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1 with 1740631 gas
+deploying "ReferralEventUtils" (tx: 0xb55e311736aeff537c7b0cb4c22cdfdf4d0b1d7e932e9f4be356284ada8fda02)...: deployed at 0x9A9f2CCfdE556A7E9Ff0848998Aa4a0CFD8863AE with 1068595 gas
+deploying "PositionPricingUtils" (tx: 0x36e2c1339bdecb012f282e5325f26ecfe56d01fbd5fec637c0ff7c36f8b972d7)...: deployed at 0x68B1D87F95878fE05B998F19b66F4baba5De1aed with 1229647 gas
+deploying "IncreasePositionUtils" (tx: 0xb5a6afc8461a742d71b9f907070a5ad3d6ff783b8b5799e19b81014ac3817825)...: deployed at 0x3Aa5ebB10DC797CAC828524e59A333d0A371443c with 4906063 gas
+deploying "IncreaseOrderUtils" (tx: 0x0f50646cfe792e7d5f7a4ce1758b51f332891fdce95e70bd2582574c2b5b5aa9)...: deployed at 0xc6e7DF5E7b4f2A278906862b61205850344D4e7d with 1394448 gas
+deploying "DecreasePositionCollateralUtils" (tx: 0xb7b7048155582efa19ae59f7bf2239b0446047276b10306c0c56ae25b1ac573a)...: deployed at 0x59b670e9fA9D0A427751Af201D676719a970857b with 4707476 gas
+deploying "DecreasePositionUtils" (tx: 0xcdca9e7bfc37f6a675061ab5cbd2a430f8ede8e50b0b2690c915cbccc38bda2e)...: deployed at 0x4ed7c70F96B99c776995fB64377f0d4aB3B0e1C1 with 3264972 gas
+deploying "DecreaseOrderUtils" (tx: 0x92dd4bb317f9c3b7d784e994b3bef4db0fc0eab254ce291365464208e8f93d00)...: deployed at 0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44 with 1622937 gas
+deploying "SwapOrderUtils" (tx: 0x0a0a2aa7fe5a1c7b64d3bc6e996fd948caf464824aa0132b3ed878a55b8b5b7d)...: deployed at 0xa85233C63b9Ee964Add6F2cffe00Fd84eb32338f with 812023 gas
+deploying "OrderUtils" (tx: 0xcc6e06bebfd5d63f0b39eaeb252d41ca63e5f2a53b0126275547035dbb6dea67)...: deployed at 0x4A679253410272dd5232B3Ff7cF5dbB88f295319 with 3366226 gas
+deploying "AdlUtils" (tx: 0xa5d847d7e8c4bbc3e92eda34ad67eef73aaab2cd6efb85e9abcb267f9e093c41)...: deployed at 0x7a2088a1bFc9d81c55368AE168C2C02570cB814F with 2357405 gas
+deploying "DataStore" (tx: 0xab89ac564b7489800b12458a7eacb31a11242b4596821d0b8ae1b0fefe581da5)...: deployed at 0x09635F643e140090A9A8Dcd712eD6285858ceBef with 2292973 gas
+setting uint max callback gas limit to 2000000
+executing DataStore.setUint (tx: 0x3233499a6cac67fcd1b6bb86a3b1354c862965f28f150d5443630e122a3c9fb6) ...: performed with 50771 gas
+setting uint min collateral USD to 1000000000000000000000000000000
+executing DataStore.setUint (tx: 0xd101398cbe608c547ec2b19f3b173898f32a8f51b2ef9007f5190cf4d85ca910) ...: performed with 50855 gas
+setting uint claimable collateral time divisor to 1000000000000000000000000000000
+executing DataStore.setUint (tx: 0x3542f1de02c304882102a25e4f34feeb6b7ccfa933322a81f8d8877bd0cdba26) ...: performed with 50855 gas
+skipping uint deposit gas limit single as it is already set to 0
+skipping uint deposit gas limit multiple as it is already set to 0
+skipping uint withdrawal gas limit single as it is already set to 0
+skipping uint withdrawal gas limit multiple as it is already set to 0
+skipping uint single swap gas limit as it is already set to 0
+skipping uint increase order gas limit as it is already set to 0
+skipping uint decrease order gas limit as it is already set to 0
+skipping uint swap order gas limit as it is already set to 0
+skipping uint native token transfer gas limit as it is already set to 0
+skipping uint token transfer gas limit as it is already set to 0
+skipping uint estimated gas fee base amount as it is already set to 0
+skipping uint estimated gas fee multiplier factor as it is already set to 0
+skipping uint execution gas fee base amount as it is already set to 0
+skipping uint execution gas fee multiplier factor as it is already set to 0
+deploying "OracleStore" (tx: 0x9be0faa9320b45a462412377f8d91cb1c9ef1b21f7fa250426114df4adaf3112)...: deployed at 0xc3e53F4d16Ae77Db1c982e75a937B9f60FE63690 with 471045 gas
+existing signers 
+adding oracle signer 0xBcd4042DE499D14e55001CcbB24a551F3b954096
+executing OracleStore.addSigner (tx: 0x4a997f8abcd5bc2650dd023e6d4eacb83ecc28527b7c5c112232f5fa013be23e) ...: performed with 95615 gas
+adding oracle signer 0x71bE63f3384f5fb98995898A86B02Fb2426c5788
+executing OracleStore.addSigner (tx: 0x6bdc78933b5d6dd5dc79e02765eb55d358d17539331c9884ff3c6041b9064247) ...: performed with 78527 gas
+adding oracle signer 0xFABB0ac9d68B0B445fB7357272Ff202C5651694a
+executing OracleStore.addSigner (tx: 0xf31aa5a7b80f98659d1a79bf0f7816d827796cd12f147cbd60704b6064537ffd) ...: performed with 78527 gas
+adding oracle signer 0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec
+executing OracleStore.addSigner (tx: 0x865389c3affcd07ea1187b970a98410ce49b26ea03c51fd2e1d1c6142c10d5de) ...: performed with 78527 gas
+adding oracle signer 0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097
+executing OracleStore.addSigner (tx: 0xb0cb722d81701210f0003b9b6203076573ebadfaacde784112679e36d84a3a02) ...: performed with 78527 gas
+adding oracle signer 0xcd3B766CCDd6AE721141F452C550Ca635964ce71
+executing OracleStore.addSigner (tx: 0xe2d59f8414ed4cb8b4e7197c21c59613feef4a1c4b59f5dc4e752991ea70378a) ...: performed with 78527 gas
+adding oracle signer 0x2546BcD3c84621e976D8185a91A922aE77ECEc30
+executing OracleStore.addSigner (tx: 0x0e78e8005772bf4731963170bddc1efbaa4ae8c143f57022af4338c07aa08819) ...: performed with 78527 gas
+adding oracle signer 0xbDA5747bFD65F08deb54cb465eB87D40e51B197E
+executing OracleStore.addSigner (tx: 0x148dc34cc6a745c8f86e507d9b885fe26b51e8f301eca36a6f11650a6bfb4068) ...: performed with 78527 gas
+adding oracle signer 0xdD2FD4581271e230360230F9337D5c0430Bf44C0
+executing OracleStore.addSigner (tx: 0xa245decb6ad86cc3205156a4e1da0a46ba9d3b2d368fe23bf000d7e878d9a5e0) ...: performed with 78527 gas
+adding oracle signer 0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199
+executing OracleStore.addSigner (tx: 0x135c76fa0ecf86e1efddac557c92ac5a577c1ad7c0218f314e814668dbda425f) ...: performed with 78527 gas
+skipping uint min oracle signers as it is already set to 0
+deploying "WETH" (tx: 0x8f6ef7aad7b2fce0e2c7160a28da5976108dfd1870235f571346b3dd652d77f7)...: deployed at 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf with 791583 gas
+deploying "WBTC" (tx: 0x43e62c10d0cf0fd330f9c31ea6ea6b3d740470388cf7b7564c82bd2d8391b5af)...: deployed at 0x0E801D84Fa97b50751Dbf25036d067dCf18858bF with 739526 gas
+deploying "USDC" (tx: 0x788dd7b3ceca9cf5e320e50922ae183c9f12546d8480f1adda757b367e8f3811)...: deployed at 0x9d4454B023096f34B160D6B654540c56A1F81688 with 739526 gas
+setting uint WETH transfer gas limit to 200000
+executing DataStore.setUint (tx: 0x2af2d5f3b04db3dbd78675be2bc0be384de04853dfedbb0af15f82e7f855d8a4) ...: performed with 50771 gas
+setting uint WBTC transfer gas limit to 200000
+executing DataStore.setUint (tx: 0xf5ab041a8fc9d551cd30e6716c496c37969b5b1d0ae6696b1cde3be0306dd58e) ...: performed with 50771 gas
+setting uint USDC transfer gas limit to 200000
+executing DataStore.setUint (tx: 0x0eb9f58ca70be038133d96f0204b609308f4de3972d22459debbf79a374515ed) ...: performed with 50771 gas
+setting address WNT to 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf
+executing DataStore.setAddress (tx: 0xc15bc9fa0426630d5d49f55d248097eb1a1fad9f27995a961b3f265fae83eb50) ...: performed with 50924 gas
+deploying "USDCPriceFeed" (tx: 0x37d408bdff8bbee3a449a5528c959c59394802882b288fae79e92eafdc3ea852)...: deployed at 0x5f3f1dBD7B74C6B46e8c44f98792A1dAf8d69154 with 106947 gas
+executing USDCPriceFeed.setAnswer (tx: 0x9786ae0c7c01a5ed97c0147252cd9f88de4d9e439a3c6a0dc1233c84c67b011e) ...: performed with 43562 gas
+setting bytes32 0x5e80e5711c770ea779b998771a4f56f644cd06978c39c536a0f2607201d2252d to 0x273d968b62e572a67bccffe361015a831243bf8765d81768b4abee0e83398855
+executing DataStore.setBytes32 (tx: 0xd296ae46c72834c1dd16e7adfb5f2758da0560f868a8cdf50a5fbe69c63cdcae) ...: performed with 50941 gas
+setting address USDC price feed to 0x5f3f1dBD7B74C6B46e8c44f98792A1dAf8d69154
+executing DataStore.setAddress (tx: 0x35f5de94b55c5488c67567fd1d434e4e3a4609c8f48e64ac0bc6394b267f57e9) ...: performed with 50924 gas
+setting uint USDC price feed multiplier to 10000000000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0xc9f063eef5b3f302f68a8463382e016d1e527a5eb0bee7e76d7ec1da86fc595c) ...: performed with 50915 gas
+setting bytes32 0xa96276198baa330aed8f87a0d1e658cde7e27b63f53c870eee3bf25091830ab9 to 0x273d968b62e572a67bccffe361015a831243bf8765d81768b4abee0e83398855
+executing DataStore.setBytes32 (tx: 0xf38a9f2f287223af5d01c31673566dea13c060f310d9d0493a4b792a8ad33365) ...: performed with 50941 gas
+setting bytes32 0xf20745557719f43a06a79f4d6e94dc9581ae4e34f575078bdce003a75502431b to 0x273d968b62e572a67bccffe361015a831243bf8765d81768b4abee0e83398855
+executing DataStore.setBytes32 (tx: 0x2628f43c90e1ac02b12941503894a9b210f0bda6c54eb54481cf935eb4e6ab3a) ...: performed with 50941 gas
+setting bytes32 0x1f2738b05a9d139ead2336db4e3ecb113420d923c2ca1d29595cfcee2573ddbe to 0x273d968b62e572a67bccffe361015a831243bf8765d81768b4abee0e83398855
+executing DataStore.setBytes32 (tx: 0x9aafaec518cd8ccc01ce5170f23dedac0ac354a57a34727d86ed8eac85b7b52f) ...: performed with 50941 gas
+deploying "EventEmitter" (tx: 0x2e2d799d7b8e25bb118daed2fe0376219cab8d4245da4379128c90d834f2941c)...: deployed at 0xFD471836031dc5108809D173A067e8486B9047A3 with 1781710 gas
+deploying "OrderVault" (tx: 0xe394ad3681836725b17ddc8ae2a0c47f65bb060e9e1a169562db5aa461c2ff70)...: deployed at 0xcbEAF3BDe82155F56486Fb5a1072cb8baAf547cc with 948657 gas
+deploying "Oracle" (tx: 0x6b6da72e202fa07773f56d15b625687d04747f06f09270de914885e2e6e57eb2)...: deployed at 0x1429859428C0aBc9C2C47C8Ee9FBaf82cFA0F20f with 3597838 gas
+setting uint min oracle block confirmations to 100
+executing DataStore.setUint (tx: 0xac5d36c292b02a6f9ba54e72a5142d57a1319701cce3fa2e1257a7d871cc5038) ...: performed with 50747 gas
+setting uint max oracle price age to 3600
+executing DataStore.setUint (tx: 0x88d6cea48f3d4bef0cdf7cdee27c86dbf0b6fdc8e716c43fded453bdc3500826) ...: performed with 50747 gas
+granting role CONTROLLER to oracle 0x1429859428C0aBc9C2C47C8Ee9FBaf82cFA0F20f
+executing RoleStore.grantRole (tx: 0xb1cb798461cbcdba8e957aeafc3d7cb35813fb13012300ad200393b237b2eb2a) ...: performed with 99230 gas
+deploying "SwapHandler" (tx: 0x59e6f6daa73b5a1f36026233793dd0913ea9f79887bf737bf187c7c80f682f4a)...: deployed at 0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f with 494491 gas
+granting role CONTROLLER to  0x5081a39b8A5f0E35a8D959395a630b68B74Dd30f
+executing RoleStore.grantRole (tx: 0x015037fa4c9b807f308cdf41be8c984c93f7c6ea1da217cdadd25c0906430870) ...: performed with 99230 gas
+deploying "ReferralStorage" (tx: 0x41eb25aa1087dd19ce08b5d9d432da1df68454f4a6489ea7263ab11d434349a3)...: deployed at 0xdbC43Ba45381e02825b14322cDdd15eC4B3164E6 with 768462 gas
+deploying "AdlHandler" (tx: 0x8980a51521d35e1d20fee5d08a9224e0dc78ab09591010a92597f96be96dad6f)...: deployed at 0x04C89607413713Ec9775E14b954286519d836FEf with 2957167 gas
+granting role CONTROLLER to  0x04C89607413713Ec9775E14b954286519d836FEf
+executing RoleStore.grantRole (tx: 0x40c882ad72fcd6f6a49f4705c9ac3ba2599aafd264c6cd553d93afc85edd4011) ...: performed with 99230 gas
+deploying "MarketFactory" (tx: 0xa4e59f7d34485672635d83aac60e59fa28f839dbf978cfa1315a5f6a0e8de2f6)...: deployed at 0x21dF544947ba3E8b3c32561399E88B52Dc8b2823 with 1894891 gas
+granting role CONTROLLER to  0x21dF544947ba3E8b3c32561399E88B52Dc8b2823
+executing RoleStore.grantRole (tx: 0x429e69f70246b75b27ed5376ddbef327784b266289802b4eb18f53013b2e877a) ...: performed with 99230 gas
+creating market 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf:0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf:0x9d4454B023096f34B160D6B654540c56A1F81688
+executing MarketFactory.createMarket (tx: 0x1415c626794780a9b2b87e9fe49d117edbf2b2b87314397fd1ad1209a2faaf3c) ...: performed with 1558909 gas
+creating market 0x0000000000000000000000000000000000000000:0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf:0x9d4454B023096f34B160D6B654540c56A1F81688
+executing MarketFactory.createMarket (tx: 0x6969cd7849957fc556b06f9cf248ee1b6273add7d2e9ec7ee20599523be83407) ...: performed with 1521669 gas
+creating market 0x36E6dc3CF44FDb8C62c5a11B457A28041f4C6eEF:0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf:0x9d4454B023096f34B160D6B654540c56A1F81688
+executing MarketFactory.createMarket (tx: 0x430f9284ad0e3d0107d40f61f8240534dcea3f974fd42d2abe304d24185052d2) ...: performed with 1541809 gas
+setting uint min collateral factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0xd339e40dd5e8dbf54d402eb93f6b833bad099051286ad149a0f36f3d35159ebc) ...: performed with 50843 gas
+setting uint min collateral factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0x8a13709818a9f630ad5b6c41b4450506de4a34d1b8e3e8e72ee6a0df6a698d68) ...: performed with 50843 gas
+setting uint max pool amount 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0xe5cd0bf50b2cf059041d3d5ed9ab8e727ad2998ccfe2bd55715dd0f23e18ca21) ...: performed with 50843 gas
+setting uint max pool amount 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a 0x9d4454B023096f34B160D6B654540c56A1F81688 to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0x2871639587025c248b6ebcba5a43b1500edf419f917a2bd2210e262632b45db5) ...: performed with 50831 gas
+setting uint max open interest 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0x4213d2b33b27d9471aea09171da1c5633159577a3d271e2c72eeeb47b4379ce3) ...: performed with 50891 gas
+setting uint max open interest 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0xe8481512cc822e8e1a1d5dfd4b65101f8dbf522f7a4b53004dbb1df09ee578e4) ...: performed with 50891 gas
+setting uint reserve factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x4eead2c4ec0faff1ecc96646db067ec16014148d57ee438463bea9d8ea839d28) ...: performed with 50855 gas
+setting uint reserve factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x1340adb00ac8e00c22130c4e1fa4deb4810a5e443f7dc7639ef62854cfe6aa02) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0xadaf56afed3b4ff9780f75c452cb8b3f9b2b40e0d64902ef334816e981c8002f) ...: performed with 50843 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x92e9b03191bdd27393e342fe7d78be109e5275167aa19c1a22c739ee39f3e559) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0x7cbfa1f6b2bb579a7d1fb4399e96468dec81f1b2f0cd71c5c10895c333b6c898) ...: performed with 50843 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0x51cbc78abfb66d4e1aaa85776b95293aef9f229b9c87a44d2b280001c241bb97) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0xa37b1db193224abcd84aa201248f0f88568b8e4b758c236a361a520c1877c431) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0x75d9a5e8900eb06d533a4cd1d458d5d917f7e19c3fc4c9f54a32b66ae7b188cb) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0x0b96eee13e24526c94eaa8d0375aff823d62023b1ea6d7eb896bc123eef6f601) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0xf5de4e128153bfd203ef59374bb5fc785240bfd8ab3c48b89cd76f3e305473df) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a long to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0x39a9c8abe97c17d4f4c7d6e0796eb8c2b00c91d249ce0070fbcbb444cb112e71) ...: performed with 50855 gas
+setting uint max pnl factor 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a short to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0x37e4ec830acfef50e4f206afe98d71f387133b2e696040b56d6b4ccba1426b13) ...: performed with 50855 gas
+setting uint positive max position impact factor for 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0x1fa97b71c9fe0e8967fe5cdbcb4aa7379a634dede8ed6841ac248e22c3e20e9e) ...: performed with 50843 gas
+setting uint negative max position impact factor for 0x920f3335Bc0ca6949B8353e0E8AD0e731032Df9a to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0x916d8edbdbd6b692bf1afa2aa73eb5f1a338571ee6cba9438675e4f155ac0837) ...: performed with 50831 gas
+setting uint min collateral factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0x7792902d4b092682b72d7306a3ca9d8df2c7064d5b5738cb874cbd45fa6b3a96) ...: performed with 50843 gas
+setting uint min collateral factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0xf76c0f5fc0fc41cdfcd88114334157d51ebd232c7eadef693419b813895a8c8a) ...: performed with 50843 gas
+setting uint max pool amount 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0x2874921987c6aeb975d440660118dfbba9ee07e691796521529c37bf6542aa40) ...: performed with 50831 gas
+setting uint max pool amount 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E 0x9d4454B023096f34B160D6B654540c56A1F81688 to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0x1f285ebdaeefa9004be2decd348bc04e3767c99a45a0a2327b893c02e7ed3ef8) ...: performed with 50843 gas
+setting uint max open interest 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0xe0b9b332b42acd2a4aed311a76c727e9f8170abbfb417c28a7b7ea2d0d247367) ...: performed with 50891 gas
+setting uint max open interest 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0x3fb63a463ac34dfb557f440ff79c3d86c8557c969377e9d79f90347db05af783) ...: performed with 50891 gas
+setting uint reserve factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0xe7aef18acd82874501df5356c804dc7ce9914894852f358f64909c68feceb1fa) ...: performed with 50855 gas
+setting uint reserve factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x3e90c95d5c7af6463a511374db193dbd1b8ca2de62da5e781edb81664cc09151) ...: performed with 50843 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x50e20e8bd33c560eb82cdc373be24e032fd882bdb8ee6c67f9b981b5084612bb) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0xd213c089603069a0b7264dbf0c7e65c8d4995d8d392f38de57a142b78f43f35f) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0x6f897c76184e3b4a12d76022675347a96c1c3ec8512dcfca8812b37f9e128932) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0xbe87a0d5ee3e6fa12aeb5e319a42d47c1231dace73191ec0f5528a1887c39a17) ...: performed with 50843 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0xd28af66fdd0539b3bb4847a038e2b9dd20581881ec184f4670dcbeea23f0ffb0) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0x97b600474f37b86367eeea7beee24419daadf813021beaed92e0573096f7c462) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0xa6a0c32e8b95d76884769c5d7b0329b45644a5b631a9e67283d56a7969a06c8e) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0xe78cfb15862d8d9a90dae75ecf6c29b0ed5ca066a7ab2d8f56e63c80e7247729) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E long to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0x3e6914fc79584e17450304820d1143516b74fbbb3242eed75a1623ee1297b3cd) ...: performed with 50855 gas
+setting uint max pnl factor 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E short to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0xd035215576630ab235dce399eeef7fcf6d41609e8a0ac19601055456c133a2ba) ...: performed with 50855 gas
+setting uint positive max position impact factor for 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0x4dfe05232fd45366231c5600c4b54a5270aa952ee7cd7aa18b012e8b42089398) ...: performed with 50843 gas
+setting uint negative max position impact factor for 0x7C707c5EFeeB14F8ffc1a173fB778FC7CD7c016E to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0x94c7c0ef8e147a58a87de911925be444a1d73427492be6db9e6552ed71443c04) ...: performed with 50843 gas
+setting uint min collateral factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0xb106d3d1566d1102f9eaee752dc9975f76c9ebca9fc6e51ea2e9d2b66adf6221) ...: performed with 50843 gas
+setting uint min collateral factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 to 10000000000000000000000000000
+executing DataStore.setUint (tx: 0x92a26fcdbde1aaac173706e3e4f37f04e47e8f88822dd56fab41de0850ee6bf5) ...: performed with 50831 gas
+setting uint max pool amount 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 0x99bbA657f2BbC93c02D617f8bA121cB8Fc104Acf to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0x22fdc49444accb420746e312e03cffbcc640cb4dd1496906d0f47d91957e5339) ...: performed with 50831 gas
+setting uint max pool amount 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 0x9d4454B023096f34B160D6B654540c56A1F81688 to 1000000000000000000000000000
+executing DataStore.setUint (tx: 0x48d11eb30bfd8fb2ec7bd28573c372cd296337cfb1f7ba5983082ceb5546bc0f) ...: performed with 50843 gas
+setting uint max open interest 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0xd113cd49236456a9636d962dec3d5f15c81c3b79631838d5bdcfc2a913dd5208) ...: performed with 50891 gas
+setting uint max open interest 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 1000000000000000000000000000000000000000
+executing DataStore.setUint (tx: 0x45c3d5b6ecbbe954a033f5cedc1e79a612bd5a60d58255ee96867c0b1f652305) ...: performed with 50891 gas
+setting uint reserve factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x0ba6692bad85bf6c18dfebd19c29d0cf11dd0d4938bdbcc44bedb76f0644a269) ...: performed with 50855 gas
+setting uint reserve factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x7667fb27aa498a76928bef4fe6d47d8152cbe13622f136a200a65cd1de45b456) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0xca50ae7ffe48decae75a805e88bd2edaf3477cbc6ad94f53edb5b1ba1113fc92) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 500000000000000000000000000000
+executing DataStore.setUint (tx: 0x72d836979f96d9c87f64e2418f243dd60e58c9dacfd616ff2eae05ca0d6c33cb) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0xae3ebc40ac332dc15e5fc45e79ea25e0cf9c53a7648087e717371aeda5f86d9f) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 450000000000000000000000000000
+executing DataStore.setUint (tx: 0x11ab6dea79dd2cf30938056adea6275167c7d6d1b617246da8acfcf753861a49) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0xfd341d0ac8757de479a6c4f0099bc84e28d487f6b0a07f68f49dbc42c486fb5b) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 400000000000000000000000000000
+executing DataStore.setUint (tx: 0x79624dbe44e225cbb90316f7bf1a577c78e9c8f7321324becbb5132e0a7c1503) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0x99dfeae0abf28d449202937ab5c3af679454825261b52588b5770cf84cec33bf) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 600000000000000000000000000000
+executing DataStore.setUint (tx: 0xba0c9beccb4f50d7257c1f0f36f880ddda4dae51ad12c96363f276596b57d34e) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 long to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0xc95025208d7e42c50aa76b411722d4b68daaab4b16ad9e7c95a66ab7d0555f71) ...: performed with 50855 gas
+setting uint max pnl factor 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 short to 300000000000000000000000000000
+executing DataStore.setUint (tx: 0x8ebd2765af06fedb270b32e40b2f4a74504b7b8c91a629aeb1a75f45a9bae586) ...: performed with 50855 gas
+setting uint positive max position impact factor for 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0xb95d80ad4c5d9a6a5a905690c8a96e84d869daad32eb194a66158d9a9d6b9e7d) ...: performed with 50843 gas
+setting uint negative max position impact factor for 0xf3d560813C765edCf2acE414a782b76A9d3d46A1 to 20000000000000000000000000000
+executing DataStore.setUint (tx: 0x35be6bdb949b07c820121b23808c6b9b4ed7e7005111e2706d85219697126b2a) ...: performed with 50843 gas
+deploying "Config" (tx: 0x2ec2884084fcdbdb72de7e8f8b3e6ffbdede6e62a6e78172e4bfa8e47772b785)...: deployed at 0x99dBE4AEa58E518C50a1c04aE9b48C9F6354612f with 3478433 gas
+granting role CONTROLLER to  0x99dBE4AEa58E518C50a1c04aE9b48C9F6354612f
+executing RoleStore.grantRole (tx: 0x631aeeb96b77ee8312adaa40cc04cffccda62087606003953d527c6bf74c9cd8) ...: performed with 99230 gas
+deploying "DepositEventUtils" (tx: 0x37ac5c12f1869d263eed49a5208e13c8495b6237c12de4285f0e02ca577d2a82)...: deployed at 0xCA8c8688914e0F7096c920146cd0Ad85cD7Ae8b9 with 1531417 gas
+deploying "DepositVault" (tx: 0x1c05301d6d7a19169e9a1baba24120fbf6acbb4fab95b30939b7fd531da1f890)...: deployed at 0xB0f05d25e41FbC2b52013099ED9616f1206Ae21B with 948657 gas
+deploying "DepositStoreUtils" (tx: 0x0a479a65443e7de84173385539b91cceeea7bf3bbd4c9fb69213d532ed9cfff4)...: deployed at 0x5FeaeBfB4439F3516c74939A9D04e95AFE82C4ae with 2825167 gas
+deploying "DepositUtils" (tx: 0x10de38835988e854b2c322ad9b1d867d0e2487eae9ee96a9fe0f17539e0cee13)...: deployed at 0x976fcd02f7C4773dd89C309fBF55D5923B4c98a1 with 1973703 gas
+deploying "ExecuteDepositUtils" (tx: 0x2f4e1f45a0bd3e253d74f2da70cb577306c21d641f7306af3189ffdf5d2c656f)...: deployed at 0x19cEcCd6942ad38562Ee10bAfd44776ceB67e923 with 5064773 gas
+deploying "DepositHandler" (tx: 0xc74858cd0e68b9c07f0a145b6cdf28ab7834b00d444f7322c101e35edc5b35a0)...: deployed at 0xD42912755319665397FF090fBB63B1a31aE87Cee with 2519366 gas
+granting role CONTROLLER to  0xD42912755319665397FF090fBB63B1a31aE87Cee
+executing RoleStore.grantRole (tx: 0xbb93f1261cefe423e1f0c88b64424bc4b3969438c2c7f84a95e32ef6a487bd96) ...: performed with 99230 gas
+deploying "Router" (tx: 0xc8b2653127c9ce305e911ec0724b633c5b4c7c5fcacfd907bb0e375521ec8963)...: deployed at 0x927b167526bAbB9be047421db732C663a0b77B11 with 379494 gas
+deploying "WithdrawalVault" (tx: 0x851196cdc3c8a11da4ca62286a6f82b1224cfae0895e96ddd7e7576702ac5bcb)...: deployed at 0x32EEce76C2C2e8758584A83Ee2F522D4788feA0f with 948657 gas
+deploying "WithdrawalStoreUtils" (tx: 0x5a74a963e98e450537372065a22f0e75dcfc12d40dadde2e4214f2c2354570ad)...: deployed at 0x01c1DeF3b91672704716159C9041Aeca392DdFfb with 2504368 gas
+deploying "WithdrawalEventUtils" (tx: 0xea99a7d65ad92040de2bdefab6d717d65b1a30e8c070786885a6ff083b7d865a)...: deployed at 0x02b0B4EFd909240FCB2Eb5FAe060dC60D112E3a4 with 1370241 gas
+deploying "WithdrawalUtils" (tx: 0xf23725a598d684b31fb0cdecde741fe2466905d03474424b0b695364dc6dd857)...: deployed at 0x638A246F0Ec8883eF68280293FFE8Cfbabe61B44 with 4705623 gas
+deploying "WithdrawalHandler" (tx: 0xb6839e98cbf1135b201abbd66036dbbe50d2d17637b1bc5e4490fbf27ce3c539)...: deployed at 0x6C2d83262fF84cBaDb3e416D527403135D757892 with 2503444 gas
+granting role CONTROLLER to  0x6C2d83262fF84cBaDb3e416D527403135D757892
+executing RoleStore.grantRole (tx: 0x0584b043c216befc8c463e0ab5dcc2db09c1e4053ab36bf70914fc51bdbf5fb7) ...: performed with 99230 gas
+deploying "OrderHandler" (tx: 0x4344a0f9b9a28148df30f351e79cf8898088d8e6ccd8c4f754a14507e07f7d04)...: deployed at 0xa6e99A4ED7498b3cdDCBB61a6A607a4925Faa1B7 with 4141680 gas
+executing ReferralStorage.setHandler (tx: 0x4a56aad739016ad3b261b6d89e3f38f84e37c127c630c18af32c401cc679da91) ...: performed with 47939 gas
+granting role CONTROLLER to  0xa6e99A4ED7498b3cdDCBB61a6A607a4925Faa1B7
+executing RoleStore.grantRole (tx: 0x4abea2ce83fae9e83cfbf3ce258e3545151cfd6e89e544c16bb7ffa10c2c4165) ...: performed with 99230 gas
+deploying "ExchangeRouter" (tx: 0x5e952cc289c587aeb0041b55870714483d24254dcd4c8c5e64663ca6ea04d6de)...: deployed at 0x4bf010f1b9beDA5450a8dD702ED602A104ff65EE with 3219506 gas
+granting role CONTROLLER to  0x4bf010f1b9beDA5450a8dD702ED602A104ff65EE
+executing RoleStore.grantRole (tx: 0xa9798e72bb68d697fe61b39210ff9828e963678d15e1982b254bc8a4142a5cfb) ...: performed with 99230 gas
+granting role ROUTER_PLUGIN to  0x4bf010f1b9beDA5450a8dD702ED602A104ff65EE
+executing RoleStore.grantRole (tx: 0xb2c2a4d5a3328d9f183507ea8a07c5fe5c59ccc17f8c3d6017dd16a899df68b2) ...: performed with 163703 gas
+deploying "LiquidationUtils" (tx: 0xcdc6a4881ca536a79461bac8e70d434cc7c04b7e7012774a1df689d509ae3687)...: deployed at 0x986aaa537b8cc170761FDAC6aC4fc7F9d8a20A8C with 588711 gas
+deploying "LiquidationHandler" (tx: 0x4dcc668aa9a313d0d8ab48b12e29c614f6f834099aefce482d498bf4a9676883)...: deployed at 0xde2Bd2ffEA002b8E84ADeA96e5976aF664115E2c with 1892073 gas
+granting role CONTROLLER to  0xde2Bd2ffEA002b8E84ADeA96e5976aF664115E2c
+executing RoleStore.grantRole (tx: 0x372c6d92367617edab00fe9ac7d7f068b2395fa2c1c3d067c9587d85149b98c4) ...: performed with 99218 gas
+deploying "Multicall3" (tx: 0x8724ce434f87f21b1e568005007335509fc2c614c05dd85a15590a39bbdeb352)...: deployed at 0x870526b7973b56163a6997bB7C886F5E4EA53638 with 737546 gas
+deploying "Reader" (tx: 0x26bd3e933f478c494f42d6b2d73b5a587e4c9fa3312afb07c5607958dd14a5d2)...: deployed at 0xD49a0e9A4CD5979aE36840f542D2d7f02C4817Be with 5197605 gas
+deploying "Timelock" (tx: 0xadba0542c30b6719a9151fc1dbbcf1b6db0d9a5bdd48950a08470cd5f0a4e58d)...: deployed at 0xe1Fd27F4390DcBE165f4D60DBF821e4B9Bb02dEd with 2678136 gas
+granting role CONTROLLER to  0xe1Fd27F4390DcBE165f4D60DBF821e4B9Bb02dEd
+executing RoleStore.grantRole (tx: 0x3712f7588d22b2b97c35dcedb9528086ddda5dd17446e053992b76a89a696872) ...: performed with 99230 gas
+granting role ROLE_ADMIN to  0xe1Fd27F4390DcBE165f4D60DBF821e4B9Bb02dEd
+executing RoleStore.grantRole (tx: 0x8d838ba927bd8e236d87d2fe55214f285de0d915d4419df0f8d12583b6b65cf8) ...: performed with 99230 gas

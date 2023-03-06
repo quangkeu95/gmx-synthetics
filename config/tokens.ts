@@ -130,6 +130,25 @@ const config: {
       decimals: 18,
     },
   },
+  anvil: {
+    WETH: {
+      wrappedNative: true,
+      decimals: 18,
+      transferGasLimit: 200 * 1000,
+    },
+    WBTC: {
+      decimals: 8,
+      transferGasLimit: 200 * 1000,
+    },
+    USDC: {
+      decimals: 6,
+      transferGasLimit: 200 * 1000,
+    },
+    SOL: {
+      synthetic: true,
+      decimals: 18,
+    },
+  },
 };
 
 export default async function (hre: HardhatRuntimeEnvironment): Promise<TokensConfig> {

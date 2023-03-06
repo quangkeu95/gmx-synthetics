@@ -1,0 +1,8 @@
+@openzeppelin/=node_modules/@openzeppelin/
+eth-gas-reporter/=node_modules/eth-gas-reporter/
+hardhat-deploy/=node_modules/hardhat-deploy/
+hardhat/=node_modules/hardhat/
+prb-math/=node_modules/prb-math/
+solidity-code-metrics/=node_modules/solidity-code-metrics/
+ds-test/=lib/forge-std/lib/ds-test/src/
+forge-std/=lib/forge-std/src/

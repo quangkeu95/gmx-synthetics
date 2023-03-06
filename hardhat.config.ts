@@ -7,12 +7,21 @@ import "hardhat-contract-sizer";
 import "solidity-coverage";
 import "hardhat-gas-reporter";
 import "hardhat-deploy";
-
+import "hardhat-preprocessor";
+import fs from "fs";
 import "@typechain/hardhat";
 import "@nomiclabs/hardhat-ethers";
 
 // extends hre with gmx domain data
 import "./config";
+
+function getRemappings() {
+  return fs
+    .readFileSync("remappings.txt", "utf8")
+    .split("\n")
+    .filter(Boolean) // remove empty lines
+    .map((line) => line.trim().split("="));
+}
 
 const config: HardhatUserConfig = {
   solidity: {
@@ -34,6 +43,11 @@ const config: HardhatUserConfig = {
     localhost: {
       saveDeployments: true,
     },
+    anvil: {
+      live: false,
+      url: "http://localhost:8545",
+      saveDeployments: true,
+    },
     arbitrum: {
       url: "https://arb1.arbitrum.io/rpc",
     },
@@ -52,7 +66,7 @@ const config: HardhatUserConfig = {
           apiKey: process.env.SNOWTRACE_API_KEY,
         },
       },
-      blockGasLimit: 2500000,
+      // blockGasLimit: 2500000,
       // gasPrice: 50000000000,
     },
   },
@@ -70,6 +84,25 @@ const config: HardhatUserConfig = {
   namedAccounts: {
     deployer: 0,
   },
+  // preprocess: {
+  //   eachLine: (hre) => ({
+  //     transform: (line: string) => {
+  //       if (line.match(/^\s*import /i)) {
+  //         for (const [from, to] of getRemappings()) {
+  //           if (line.includes(from)) {
+  //             line = line.replace(from, to);
+  //             break;
+  //           }
+  //         }
+  //       }
+  //       return line;
+  //     },
+  //   }),
+  // },
+  // paths: {
+  //   sources: "./src",
+  //   cache: "./cache_hardhat",
+  // },
 };
 
 export default config;

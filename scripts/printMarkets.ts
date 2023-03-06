@@ -12,8 +12,8 @@ async function main() {
   }
 
   const reader = await hre.ethers.getContract("Reader");
-  const marketStore = await hre.ethers.getContract("MarketStore");
-  const markets = await reader.getMarkets(marketStore.address, 0, 1000);
+  const marketStore = await hre.ethers.getContract("MarketStoreUtils");
+  const markets = await reader.getMarkets(marketStore.address, 0, 100);
   for (const market of markets) {
     const indexTokenSymbol = addressToSymbol[market.indexToken];
     const longTokenSymbol = addressToSymbol[market.longToken];

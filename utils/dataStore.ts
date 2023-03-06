@@ -23,6 +23,13 @@ export async function setBoolIfDifferent(key: string, value: boolean, label?: st
   await setIfDifferent("bool", key, value, { label });
 }
 
+/**
+ * Set the value by key in DataStore contract
+ * @param type
+ * @param key
+ * @param value
+ * @param param3
+ */
 async function setIfDifferent(
   type: "uint" | "address" | "data" | "bool",
   key: string,
